@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CDE2006F1D7EEC1C001ACFFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2006E1D7EEC1C001ACFFF /* AppDelegate.swift */; };
-		CDE200711D7EEC1C001ACFFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE200701D7EEC1C001ACFFF /* ViewController.swift */; };
 		CDE200741D7EEC1C001ACFFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE200721D7EEC1C001ACFFF /* Main.storyboard */; };
 		CDE200771D7EEC1C001ACFFF /* Alarmo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDE200751D7EEC1C001ACFFF /* Alarmo.xcdatamodeld */; };
 		CDE200791D7EEC1C001ACFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE200781D7EEC1C001ACFFF /* Assets.xcassets */; };
 		CDE2007C1D7EEC1C001ACFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE2007A1D7EEC1C001ACFFF /* LaunchScreen.storyboard */; };
+		CDE200841D7EF569001ACFFF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE200831D7EF569001ACFFF /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDE2006B1D7EEC1C001ACFFF /* Alarmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE2006E1D7EEC1C001ACFFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDE200701D7EEC1C001ACFFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDE200731D7EEC1C001ACFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDE200761D7EEC1C001ACFFF /* Alarmo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alarmo.xcdatamodel; sourceTree = "<group>"; };
 		CDE200781D7EEC1C001ACFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE2007B1D7EEC1C001ACFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDE2007D1D7EEC1C001ACFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE200831D7EF569001ACFFF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +56,13 @@
 		CDE2006D1D7EEC1C001ACFFF /* Alarmo */ = {
 			isa = PBXGroup;
 			children = (
-				CDE2006E1D7EEC1C001ACFFF /* AppDelegate.swift */,
-				CDE200701D7EEC1C001ACFFF /* ViewController.swift */,
-				CDE200721D7EEC1C001ACFFF /* Main.storyboard */,
-				CDE200781D7EEC1C001ACFFF /* Assets.xcassets */,
-				CDE2007A1D7EEC1C001ACFFF /* LaunchScreen.storyboard */,
-				CDE2007D1D7EEC1C001ACFFF /* Info.plist */,
 				CDE200751D7EEC1C001ACFFF /* Alarmo.xcdatamodeld */,
+				CDE2006E1D7EEC1C001ACFFF /* AppDelegate.swift */,
+				CDE200781D7EEC1C001ACFFF /* Assets.xcassets */,
+				CDE2007D1D7EEC1C001ACFFF /* Info.plist */,
+				CDE2007A1D7EEC1C001ACFFF /* LaunchScreen.storyboard */,
+				CDE200721D7EEC1C001ACFFF /* Main.storyboard */,
+				CDE200831D7EF569001ACFFF /* MainViewController.swift */,
 			);
 			path = Alarmo;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE200711D7EEC1C001ACFFF /* ViewController.swift in Sources */,
+				CDE200841D7EF569001ACFFF /* MainViewController.swift in Sources */,
 				CDE200771D7EEC1C001ACFFF /* Alarmo.xcdatamodeld in Sources */,
 				CDE2006F1D7EEC1C001ACFFF /* AppDelegate.swift in Sources */,
 			);
