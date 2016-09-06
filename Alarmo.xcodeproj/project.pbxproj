@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE2006F1D7EEC1C001ACFFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2006E1D7EEC1C001ACFFF /* AppDelegate.swift */; };
+		CDE200711D7EEC1C001ACFFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE200701D7EEC1C001ACFFF /* ViewController.swift */; };
+		CDE200741D7EEC1C001ACFFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE200721D7EEC1C001ACFFF /* Main.storyboard */; };
+		CDE200771D7EEC1C001ACFFF /* Alarmo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDE200751D7EEC1C001ACFFF /* Alarmo.xcdatamodeld */; };
+		CDE200791D7EEC1C001ACFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE200781D7EEC1C001ACFFF /* Assets.xcassets */; };
+		CDE2007C1D7EEC1C001ACFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE2007A1D7EEC1C001ACFFF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDE2006B1D7EEC1C001ACFFF /* Alarmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE2006E1D7EEC1C001ACFFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE200701D7EEC1C001ACFFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDE200731D7EEC1C001ACFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE200761D7EEC1C001ACFFF /* Alarmo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alarmo.xcdatamodel; sourceTree = "<group>"; };
+		CDE200781D7EEC1C001ACFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE2007B1D7EEC1C001ACFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE2007D1D7EEC1C001ACFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE200681D7EEC1C001ACFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE200621D7EEC1C001ACFFF = {
+			isa = PBXGroup;
+			children = (
+				CDE2006D1D7EEC1C001ACFFF /* Alarmo */,
+				CDE2006C1D7EEC1C001ACFFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE2006C1D7EEC1C001ACFFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2006B1D7EEC1C001ACFFF /* Alarmo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE2006D1D7EEC1C001ACFFF /* Alarmo */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2006E1D7EEC1C001ACFFF /* AppDelegate.swift */,
+				CDE200701D7EEC1C001ACFFF /* ViewController.swift */,
+				CDE200721D7EEC1C001ACFFF /* Main.storyboard */,
+				CDE200781D7EEC1C001ACFFF /* Assets.xcassets */,
+				CDE2007A1D7EEC1C001ACFFF /* LaunchScreen.storyboard */,
+				CDE2007D1D7EEC1C001ACFFF /* Info.plist */,
+				CDE200751D7EEC1C001ACFFF /* Alarmo.xcdatamodeld */,
+			);
+			path = Alarmo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE2006A1D7EEC1C001ACFFF /* Alarmo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE200801D7EEC1C001ACFFF /* Build configuration list for PBXNativeTarget "Alarmo" */;
+			buildPhases = (
+				CDE200671D7EEC1C001ACFFF /* Sources */,
+				CDE200681D7EEC1C001ACFFF /* Frameworks */,
+				CDE200691D7EEC1C001ACFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alarmo;
+			productName = Alarmo;
+			productReference = CDE2006B1D7EEC1C001ACFFF /* Alarmo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE200631D7EEC1C001ACFFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Patrick Zhong";
+				TargetAttributes = {
+					CDE2006A1D7EEC1C001ACFFF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CDE200661D7EEC1C001ACFFF /* Build configuration list for PBXProject "Alarmo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE200621D7EEC1C001ACFFF;
+			productRefGroup = CDE2006C1D7EEC1C001ACFFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE2006A1D7EEC1C001ACFFF /* Alarmo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE200691D7EEC1C001ACFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE2007C1D7EEC1C001ACFFF /* LaunchScreen.storyboard in Resources */,
+				CDE200791D7EEC1C001ACFFF /* Assets.xcassets in Resources */,
+				CDE200741D7EEC1C001ACFFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE200671D7EEC1C001ACFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE200711D7EEC1C001ACFFF /* ViewController.swift in Sources */,
+				CDE200771D7EEC1C001ACFFF /* Alarmo.xcdatamodeld in Sources */,
+				CDE2006F1D7EEC1C001ACFFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDE200721D7EEC1C001ACFFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE200731D7EEC1C001ACFFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE2007A1D7EEC1C001ACFFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE2007B1D7EEC1C001ACFFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE2007E1D7EEC1C001ACFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDE2007F1D7EEC1C001ACFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE200811D7EEC1C001ACFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Alarmo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jimihua.Alarmo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDE200821D7EEC1C001ACFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Alarmo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jimihua.Alarmo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE200661D7EEC1C001ACFFF /* Build configuration list for PBXProject "Alarmo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE2007E1D7EEC1C001ACFFF /* Debug */,
+				CDE2007F1D7EEC1C001ACFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE200801D7EEC1C001ACFFF /* Build configuration list for PBXNativeTarget "Alarmo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE200811D7EEC1C001ACFFF /* Debug */,
+				CDE200821D7EEC1C001ACFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDE200751D7EEC1C001ACFFF /* Alarmo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDE200761D7EEC1C001ACFFF /* Alarmo.xcdatamodel */,
+			);
+			currentVersion = CDE200761D7EEC1C001ACFFF /* Alarmo.xcdatamodel */;
+			path = Alarmo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDE200631D7EEC1C001ACFFF /* Project object */;
+}
