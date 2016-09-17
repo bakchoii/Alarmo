@@ -14,8 +14,8 @@ class MainViewController: UIViewController {
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
-    let timeFormatter = NSDateFormatter()
-    let dateFormatter = NSDateFormatter()
+    let timeFormatter = DateFormatter()
+    let dateFormatter = DateFormatter()
 
     
     override func viewDidLoad() {
@@ -27,7 +27,7 @@ class MainViewController: UIViewController {
         dateFormatter.dateFormat = "EEE  MM/dd"
 
         // updating the time for half sec
-        NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: #selector(MainViewController.updateTime), userInfo: nil, repeats: true)
+        Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(MainViewController.updateTime), userInfo: nil, repeats: true)
 
     }
 
@@ -37,7 +37,7 @@ class MainViewController: UIViewController {
     }
     
     func updateTime() {
-        timeLabel.text = timeFormatter.stringFromDate(NSDate())
-        dateLabel.text = dateFormatter.stringFromDate(NSDate())
+        timeLabel.text = timeFormatter.string(from: Date())
+        dateLabel.text = dateFormatter.string(from: Date())
     }
 }
